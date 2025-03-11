@@ -1,0 +1,167 @@
+div.solicitacaoContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+  
+  .containerPrincipalSolicitacao {
+    width: 94%;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    height: 7%;
+    align-items: center;
+    padding: 0 1%;
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+  
+  .mainSolicitacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 93%;
+    gap: 15px;
+  }
+  
+  .formSolicitacao {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #23282f;
+  }
+  
+  input,
+  select,
+  textarea {
+    border-radius: 6px;
+    border: solid #cbd4e1 0.8px;
+    height: 4vh;
+    width: 100%;
+  }
+  
+  //Estilizção do grupo1
+  .grupo1 {
+    width: 35%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .inputNome {
+    width: 45%;
+  }
+  
+  .inputEmpresa {
+    width: 25%;
+  }
+  
+  .inputPrestacao {
+    width: 25%;
+  }
+  
+  .inputMotivo {
+    width: 100%;
+  
+    textarea {
+      height: 10vh;
+    }
+  }
+  
+  .barraVertical {
+    background-color: #cbd4e1;
+    height: 25vh;
+    width: 0.1vw;
+  }
+  
+  .grupo2 {
+    width: 60%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .inputData {
+    width: 20%;
+  }
+  
+  .tipoDeDespesas {
+    width: 30%;
+  }
+  
+  .centroDeCusto {
+    width: 45%;
+  }
+  
+  .ordem,
+  .divisoes,
+  .pep,
+  .distancia {
+    width: 8%;
+  }
+  
+  .moeda,
+  .valorKm,
+  .valorFaturado,
+  .despesa {
+    width: 11%;
+  }
+  
+  .botoes {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+  
+    .botaoSalvar {
+      background-color: #001a3d;
+      color: #ffffff;
+      width: 5vw;
+    }
+    .botaoDeletar {
+      width: 2vw;
+      background-color: #00bedd;
+    }
+  }
+  
+  //Estilização da tabela
+  table{
+      width: 100%;
+      border: solid;
+  border-collapse:collapse;
+  }
+  
+  
+  //Cabeçalho
+  th{
+  
+      background-color: #CBD4E1;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #23282F;
+  }
+  
+  
+  th,td{
+      border: solid;
+      text-align: center;
+  }

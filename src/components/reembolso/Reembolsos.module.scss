@@ -1,0 +1,102 @@
+div.reembolsosContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+    .conteudos {
+        width: 94%;
+        height: 100%;
+        
+        header {
+            display: flex;
+            gap: 14px;
+            width: 100%;
+            height: 7%;
+            align-items: center;
+            padding: 0 1%;
+    
+            h2 {
+                font-size: 1rem;
+                font-weight: 400;
+            }
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 93%;
+            gap: 15px;
+
+            .servicos {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+
+                article {
+                    width: 20vw;
+                    height: 25vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border: solid #CBD4E1;
+                    border-radius: 6px;
+                    margin-top: 1rem;
+                }
+            }
+
+            .estatisticas {
+                border: solid #CBD4E1;
+                width: 70%;
+                height: 15vh;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 6px;
+                margin-top: 1rem;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    width: 20%;
+                    height: 10%;
+                }
+
+                .estatisticaSolicitados img, .estatisticaAnalise img,
+                .estatisticaAprovados img, .estatisticaRejeitados img {
+                    padding: 10px;
+                    border-radius: 6px;
+                }
+
+                .estatisticaSolicitados img {
+                    background-color: #00bedd;
+                }
+                .estatisticaAnalise img {
+                    background-color: #E56700;
+                }
+                .estatisticaAprovados img {
+                    background-color: #007A6A;
+                }
+                .estatisticaRejeitados img {
+                    background-color: #A60B2F;
+                }
+            }
+
+            .containerSistema {
+                width: 70%;
+                display: flex;
+                gap: 10px;
+                margin-top: 1rem;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: #0844C4;
+                }
+            }
+        }
+    }
+}

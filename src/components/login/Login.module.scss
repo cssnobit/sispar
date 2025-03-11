@@ -6,7 +6,6 @@ main {
 .containerFoto {
     width: 60%;
     height: 100vh;
-    background-color: green;
     background-image: url("../../assets/tela-login/imagem-tela-de-login.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -96,6 +95,7 @@ main {
                 font-size: 0.9rem;
                 font-weight: 600;
                 transition: 0.15s;
+                cursor: pointer;
             }
 
             .buttonCadastrar {

@@ -1,8 +1,15 @@
+import {useNavigate} from "react-router-dom";
 import Logo from "../../assets/tela-login/logo-ws.png";
-import Capa from "../../assets/tela-login/imagem-tela-de-login.png";
+// import Capa from "../../assets/tela-login/imagem-tela-de-login.png";
 import styles from "./Login.module.scss"; // importando a estilização de Login
 
 function Login() {
+
+    const navigate = useNavigate(); // Iniciando o hook useNavigate
+    const irParaReembolsos = () => {
+        navigate("/reembolsos"); // Redirecionar para a página de reembolsos
+    }
+
     return (
         <main>
             <section className={styles.containerFoto}>
@@ -24,7 +31,7 @@ function Login() {
                     <a href="#">Esqueci minha senha</a>
                 
                 <div>
-                    <button className={styles.buttonLogar}>Entrar</button>
+                    <button className={styles.buttonLogar} onClick={irParaReembolsos}>Entrar</button>
                     <button className={styles.buttonCadastrar}>Criar Conta</button>
                 </div>
                 </form>

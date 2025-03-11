@@ -8,7 +8,7 @@ import Reembolso from "../../assets/dashboard/reembolso.png";
 import Navbar from "../navbar/Navbar.jsx";
 
 import NumeroAnalises from "../../assets/dashboard/n-analises.png";
-import NumeroSolicitados from "../../assets/dashboard/n-solicitados.png";
+import NumeroSolicitados from "../../assets/dashboard/n-solicitados.png"
 import NumeroAprovados from "../../assets/dashboard/n-aprovados.png";
 import NumeroRejeitados from "../../assets/dashboard/n-rejeitados.png";
 
